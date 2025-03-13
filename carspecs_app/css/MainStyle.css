@@ -1,0 +1,367 @@
+body{
+  background: #E9EED9;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+/* Displays *//*------------------------------------------------------------------------*/
+.loginSignUpDisplay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12%;
+}
+.buscadorDisplay{
+ display: flex;
+ flex-direction: row;
+}
+.formularioGestionUsuarios{
+  display: flex;
+  margin-bottom: 2%;
+  gap: 1%;
+}
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* Inputs y forms *//*------------------------------------------------------------------------*/
+.inputForm{
+height: 400px;
+width: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 50px;
+font-weight: 600;
+color: rgba(0, 0, 0, 0);
+text-shadow: 
+    1px 1px 1px rgba(255, 255, 255, 0.5),
+    -1px -1px 1px rgba(0, 0, 0, 0.3), 
+    0px 0px 1px rgba(0, 0, 0, 0.5),
+    0px 0px 1px rgba(255, 255, 255, 0.2);
+background: linear-gradient(225deg, #f9ffe8, #d2d6c3);
+box-shadow:  -9px 9px 18px rgba(0, 0, 0, 0.3),
+             9px -9px 18px rgba(0, 0, 0, 0.3);
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.formBuscador{
+  margin-left: 15%;
+}
+.input{
+  
+  background: none;
+  border: none;
+  outline: none;
+  max-width: 190px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 9999px;
+  box-shadow: inset 0px 0px 15px rgb(5, 5, 5,0.6);
+  color: #54473F;
+  transition: all 300ms ease-in-out;
+}
+.input:focus{
+  transform: scale(1.05);
+  box-shadow: 1px 1px 15px rgb(5, 5, 5,0.6);
+}
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+/* Botones Styles *//*------------------------------------------------------------------------*/
+.button{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  border-radius: 12px;
+  border: none;
+  background:   rgba(0, 0, 0, 0);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+.button:hover{
+  transform: scale(1.05);
+  box-shadow: 1px 1px 15px rgb(5, 5, 5,0.6);
+}
+.button:active{
+  box-shadow: inset 0px 0px 15px rgb(5, 5, 5,0.6);
+
+}
+.btnBusqueda{
+  margin-left: 1%;
+  width: 5%;
+}
+.btnPerfil0{
+  display: none;
+}
+.btnLogin1{
+display: none;
+}
+.NoVIPDisplayNone{
+  display: none !important;
+}
+.VIPDisplayNone1{
+  display: none !important;
+  }
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* Divs *//*------------------------------------------------------------------------*/
+.contenedorBuscador{
+  margin-left: 35%;
+  margin-top: 2.5%;
+  width: 70%;
+}
+
+
+.divContenedorCocheStyle{
+  display: flex;
+  overflow-x:auto;
+  min-height: 750px;
+  max-height: 750px;
+  border-radius: 40px;
+  background: #E9EED9;
+  box-shadow: inset -6px 6px 12px rgba(0, 0, 0, 0.3),
+            inset 6px -6px 12px rgba(0, 0, 0, 0.3);
+}
+.divContenedorCocheStyle1{
+  flex-direction: column;
+  width: 90%;
+  padding: 0px;
+  margin: 60px;
+}
+
+#divContendorCochesBuscador{
+ 
+  width:45%;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+}
+
+.contenedorCoche{
+  min-width:45%;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  background: #CBD2A4;
+  box-shadow: inset -6px 6px 12px #84896b,
+              inset 6px -6px 12px #84896b;
+}
+
+.nombreLista{
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  color: rgba(0, 0, 0, 0);
+  text-shadow: 
+    1px 1px 1px rgba(255, 255, 255, 0.5),
+    -1px -1px 1px rgba(0, 0, 0, 0.3), 
+    0px 0px 1px rgba(0, 0, 0, 0.5),
+    0px 0px 1px rgba(255, 255, 255, 0.2);
+  background: linear-gradient(225deg, #f9ffe8, #d2d6c3);
+  box-shadow:  -9px 9px 18px rgba(0, 0, 0, 0.3),
+             9px -9px 18px rgba(0, 0, 0, 0.3);
+
+}
+
+.listaCochesStyle{
+text-align: center;  
+--bs-gutter-x: 0;
+margin-top: 20px;
+margin-left: 20px;
+max-height: 700px;
+min-width: 23.6%;
+overflow: auto;
+border-radius: 30px;
+background: linear-gradient(225deg, #f9ffe8, #d2d6c3);
+box-shadow:  -9px 9px 18px rgba(0, 0, 0, 0.3),
+             9px -9px 18px rgba(0, 0, 0, 0.3);
+
+}
+
+.displayAjustesUsuario{
+  margin:2%;
+}
+.displayOpcionesPago{
+  height: 100%;
+  width: 100%;
+}
+.subSection2{
+  width: 20%;
+  border: solid rgb(80, 79, 79);
+  border-radius: 10px;
+  margin: 1%;
+  text-align: center;
+  padding: 1%;
+}
+.opcionesSubs{
+  width: 20%;
+  border: solid rgb(80, 79, 79);
+  border-radius: 10px;
+  margin: 1%;
+  text-align: center;
+  padding: 1%;
+}
+
+.displayPago{
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.divPago{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-top: 5%;
+  margin-left: 44%;
+}
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+.infoElement{
+  margin-top: 5px;
+}
+
+.btnLi{
+  margin-left: 1%;
+}
+
+.imagen{
+  object-fit: cover;
+  width:80%;
+  max-height: 160px;
+  min-height: 160px;
+}
+.modal-content{
+  background: linear-gradient(225deg, #f9ffe8, #d2d6c3);
+}
+#modalFiltros{
+  position: fixed;
+  top: 0;
+  left:0; 
+  width: 300px; 
+  height: 100%;
+
+}
+.elementoFiltros{
+  margin-top: 10px;
+}
+#potencia_max{
+  margin-top: 5px;
+
+}
+.mostrarRegistros{
+  gap:1%;
+}
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888;
+}
+
+@media (max-height: 610px) {
+
+  .divContenedorCocheStyle {
+    min-height: 450px;
+    max-height: 450px;
+  }
+  .listaCochesStyle{
+    max-height:400px ;
+  }
+}
+
+
+
+
+
+
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 310px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+#container {
+    height: 400px;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+.highcharts-description {
+    margin: 0.3rem 10px;
+}
