@@ -1,1 +1,1 @@
-TFG Carlos Cantos Garcia
+Es un buscador donde el usuario puede filtrar y buscar los coches que desee y almacenarlos en una serie de listas al crear un usuario, tiene su sección de administración para gestionar el contenido de la página y los usuarios y también incluye mailer, pasarelas de pago. Por otra parte hice tres scripts con python con los que se podrían añadir con tres diferentes métodos registros en la bbdd para ahorrar el hacerlo manualmente desde la aplicación en sí.
